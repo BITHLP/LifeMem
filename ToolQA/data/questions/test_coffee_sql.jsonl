@@ -1,0 +1,80 @@
+{"qid": "easy-coffee-0018", "question": "What was the opening price of coffee on 2008-02-07?", "answer": "142.6"}
+{"qid": "easy-coffee-0020", "question": "What was the opening price of coffee on 2012-03-09?", "answer": "186.3"}
+{"qid": "easy-coffee-0026", "question": "What was the lowest price of coffee on 2007-10-18?", "answer": "122.3"}
+{"qid": "easy-coffee-0028", "question": "What was the lowest price of coffee on 2001-05-24?", "answer": "62.25"}
+{"qid": "easy-coffee-0053", "question": "What was the highest price of coffee on 2013-03-20?", "answer": "134.25"}
+{"qid": "easy-coffee-0069", "question": "What was the highest price of coffee on 2016-02-19?", "answer": "116.65"}
+{"qid": "easy-coffee-0073", "question": "What was the highest price of coffee on 2017-11-30?", "answer": "130.3"}
+{"qid": "easy-coffee-0084", "question": "What was the closing price of coffee on 2000-06-02?", "answer": "95.55"}
+{"qid": "easy-coffee-0094", "question": "What was the closing price of coffee on 2011-06-22?", "answer": "243.75"}
+{"qid": "easy-coffee-0095", "question": "What was the closing price of coffee on 2017-04-19?", "answer": "138.0"}
+{"qid": "easy-coffee-0101", "question": "What was the volume of coffee on 2017-11-29?", "answer": "13"}
+{"qid": "easy-coffee-0111", "question": "What was the volume of coffee on 2007-01-04?", "answer": "13391"}
+{"qid": "easy-coffee-0114", "question": "What was the volume of coffee on 2011-02-01?", "answer": "14137"}
+{"qid": "easy-coffee-0123", "question": "What was the volume of coffee on 2012-10-02?", "answer": "21457"}
+{"qid": "easy-coffee-0127", "question": "What was the percentage change in coffee price on 2012-05-08, based on the difference between the opening and closing prices?", "answer": "0.81%"}
+{"qid": "easy-coffee-0129", "question": "What was the percentage change in coffee price on 2010-12-16, based on the difference between the opening and closing prices?", "answer": "0.07%"}
+{"qid": "easy-coffee-0131", "question": "What was the percentage change in coffee price on 2012-05-10, based on the difference between the opening and closing prices?", "answer": "0.0%"}
+{"qid": "easy-coffee-0146", "question": "What was the percentage change in coffee price on 2006-04-03, based on the difference between the opening and closing prices?", "answer": "2.77%"}
+{"qid": "easy-coffee-0149", "question": "What was the percentage change in coffee price on 2011-09-19, based on the difference between the opening and closing prices?", "answer": "-0.08%"}
+{"qid": "easy-coffee-0150", "question": "Was 2005-12-13 a bearish or bullish day for coffee price?", "answer": "bearish"}
+{"qid": "easy-coffee-0158", "question": "Was 2015-07-10 a bearish or bullish day for coffee price?", "answer": "bearish"}
+{"qid": "easy-coffee-0161", "question": "Was 2019-11-11 a bearish or bullish day for coffee price?", "answer": "bearish"}
+{"qid": "easy-coffee-0164", "question": "Was 2017-05-11 a bearish or bullish day for coffee price?", "answer": "bearish"}
+{"qid": "easy-coffee-0166", "question": "Was 2019-10-23 a bearish or bullish day for coffee price?", "answer": "bearish"}
+{"qid": "easy-coffee-0170", "question": "Was 2012-06-19 a bearish or bullish day for coffee price?", "answer": "bullish"}
+{"qid": "easy-coffee-0179", "question": "What was the range of coffee price on 2000-06-02, based on the difference between the high and low prices??", "answer": "2.45"}
+{"qid": "easy-coffee-0181", "question": "What was the range of coffee price on 2013-12-17, based on the difference between the high and low prices??", "answer": "1.0"}
+{"qid": "easy-coffee-0189", "question": "What was the range of coffee price on 2016-09-02, based on the difference between the high and low prices??", "answer": "1.05"}
+{"qid": "easy-coffee-0191", "question": "What was the range of coffee price on 2008-06-04, based on the difference between the high and low prices??", "answer": "2.15"}
+{"qid": "easy-coffee-0196", "question": "What was the range of coffee price on 2017-03-09, based on the difference between the high and low prices??", "answer": "0.6"}
+{"qid": "hard-coffee-0009", "question": "What was the highest coffee price from 2020-03-24 to 2020-06-18?", "answer": "130.65 USD"}
+{"qid": "hard-coffee-0012", "question": "What was the highest coffee price from 2013-02-04 to 2013-05-23?", "answer": "148.05 USD"}
+{"qid": "hard-coffee-0013", "question": "What was the highest coffee price from 2003-08-11 to 2004-01-05?", "answer": "70.75 USD"}
+{"qid": "hard-coffee-0020", "question": "What was the lowest coffee price from 2011-11-04 to 2012-03-21?", "answer": "181.35 USD"}
+{"qid": "hard-coffee-0021", "question": "What was the lowest coffee price from 2021-01-04 to 2021-03-05?", "answer": "118.75 USD"}
+{"qid": "hard-coffee-0028", "question": "What was the lowest coffee price from 2015-02-10 to 2015-06-18?", "answer": "123.55 USD"}
+{"qid": "hard-coffee-0029", "question": "What was the lowest coffee price from 2012-06-14 to 2012-10-09?", "answer": "148.2 USD"}
+{"qid": "hard-coffee-0035", "question": "What was the average coffee price from 2016-02-01 to 2016-05-20?", "answer": "122.2 USD"}
+{"qid": "hard-coffee-0036", "question": "What was the average coffee price from 2012-02-29 to 2012-06-27?", "answer": "174.4 USD"}
+{"qid": "hard-coffee-0040", "question": "What was the average coffee price from 2002-06-12 to 2002-10-08?", "answer": "50.9 USD"}
+{"qid": "hard-coffee-0046", "question": "How much did the coffee price change from 2012-10-11 to 2013-02-04?", "answer": "-19.0 USD"}
+{"qid": "hard-coffee-0061", "question": "What was the percentage change in coffee price on 2009-12-08 compared to the previous day?", "answer": "-1.8%"}
+{"qid": "hard-coffee-0069", "question": "What was the percentage change in coffee price on 2007-04-12 compared to the previous day?", "answer": "3.1%"}
+{"qid": "hard-coffee-0070", "question": "What was the percentage change in coffee price on 2019-03-07 compared to the previous day?", "answer": "-1.9%"}
+{"qid": "hard-coffee-0085", "question": "On which date from 2008-02-14 to 2008-06-13 was the difference between the highest and lowest coffee prices the greatest?", "answer": "2008-03-17"}
+{"qid": "hard-coffee-0089", "question": "On which date from 2010-07-26 to 2010-09-21 was the difference between the highest and lowest coffee prices the greatest?", "answer": "2010-08-24"}
+{"qid": "hard-coffee-0104", "question": "What was the average daily volume of coffee traded from 2005-07-18 to 2005-11-17?", "answer": "7194.9"}
+{"qid": "hard-coffee-0109", "question": "On which date from 2016-08-30 to 2016-12-28 did the coffee price have the highest increase compared to the previous day?", "answer": "2016-10-25"}
+{"qid": "hard-coffee-0110", "question": "On which date from 2016-08-11 to 2016-10-28 did the coffee price have the highest increase compared to the previous day?", "answer": "2016-10-25"}
+{"qid": "hard-coffee-0112", "question": "On which date from 2004-09-13 to 2005-01-07 did the coffee price have the highest increase compared to the previous day?", "answer": "2004-11-15"}
+{"qid": "hard-coffee-0123", "question": "How many times from 2020-11-23 to 2021-01-13 did the coffee price increase compared to the previous day?", "answer": "18"}
+{"qid": "hard-coffee-0128", "question": "How many times from 2016-07-12 to 2016-09-06 did the coffee price increase compared to the previous day?", "answer": "22"}
+{"qid": "hard-coffee-0130", "question": "How many times from 2007-05-07 to 2007-08-28 did the coffee price increase compared to the previous day?", "answer": "47"}
+{"qid": "hard-coffee-0136", "question": "What was the percentage increase in coffee price from 2022-04-06 to 2022-08-09?", "answer": "-7.9%"}
+{"qid": "hard-coffee-0137", "question": "What was the percentage increase in coffee price from 2008-12-15 to 2009-04-24?", "answer": "6.8%"}
+{"qid": "hard-coffee-0140", "question": "What was the percentage increase in coffee price from 2006-07-19 to 2006-10-25?", "answer": "10.4%"}
+{"qid": "hard-coffee-0143", "question": "What was the percentage increase in coffee price from 2002-05-07 to 2002-09-18?", "answer": "21.0%"}
+{"qid": "hard-coffee-0149", "question": "What was the percentage increase in coffee price from 2010-09-09 to 2010-11-15?", "answer": "6.8%"}
+{"qid": "hard-coffee-0150", "question": "What was the coffee price range from 2012-11-20 to 2013-01-25?", "answer": "25.7 USD"}
+{"qid": "hard-coffee-0159", "question": "What was the coffee price range from 2002-12-18 to 2003-03-10?", "answer": "13.4 USD"}
+{"qid": "hard-coffee-0164", "question": "What was the coffee price range from 2017-08-29 to 2017-11-29?", "answer": "20.2 USD"}
+{"qid": "hard-coffee-0172", "question": "On how many days from 2006-06-22 to 2006-08-15 did the coffee price close higher than the opening price?", "answer": "21"}
+{"qid": "hard-coffee-0175", "question": "On how many days from 2008-03-31 to 2008-05-29 did the coffee price close higher than the opening price?", "answer": "21"}
+{"qid": "hard-coffee-0176", "question": "On how many days from 2015-08-17 to 2015-10-12 did the coffee price close higher than the opening price?", "answer": "18"}
+{"qid": "hard-coffee-0179", "question": "On how many days from 2000-06-21 to 2000-08-23 did the coffee price close higher than the opening price?", "answer": "19"}
+{"qid": "hard-coffee-0185", "question": "What was the average percentage change in coffee price from 2009-07-21 to 2009-11-18?", "answer": "0.1%"}
+{"qid": "hard-coffee-0187", "question": "What was the average percentage change in coffee price from 2012-01-30 to 2012-06-01?", "answer": "-0.3%"}
+{"qid": "hard-coffee-0192", "question": "What was the average percentage change in coffee price from 2013-03-28 to 2013-06-14?", "answer": "-0.2%"}
+{"qid": "hard-coffee-0119", "question": "On which date from 2006-05-31 to 2006-12-08 did the coffee price have the highest increase compared to the previous day?", "answer": "2006-08-02"}
+{"qid": "hard-coffee-0121", "question": "How many times from 2018-06-27 to 2019-10-08 did the coffee price increase compared to the previous day?", "answer": "155"}
+{"qid": "hard-coffee-0122", "question": "How many times from 2001-12-04 to 2003-08-14 did the coffee price increase compared to the previous day?", "answer": "204"}
+{"qid": "hard-coffee-0127", "question": "How many times from 2011-02-01 to 2011-09-16 did the coffee price increase compared to the previous day?", "answer": "86"}
+{"qid": "hard-coffee-0129", "question": "How many times from 2018-05-16 to 2019-01-23 did the coffee price increase compared to the previous day?", "answer": "76"}
+{"qid": "hard-coffee-0131", "question": "How many times from 2015-11-16 to 2016-11-04 did the coffee price increase compared to the previous day?", "answer": "134"}
+{"qid": "hard-coffee-0132", "question": "How many times from 2007-06-21 to 2008-09-15 did the coffee price increase compared to the previous day?", "answer": "176"}
+{"qid": "hard-coffee-0133", "question": "How many times from 2002-05-30 to 2004-02-23 did the coffee price increase compared to the previous day?", "answer": "24"}
+{"qid": "hard-coffee-0151", "question": "What was the coffee price range from 2020-01-30 to 2020-08-17?", "answer": "38.0 USD"}
+{"qid": "hard-coffee-0157", "question": "What was the coffee price range from 2003-12-08 to 2005-04-21?", "answer": "78.0 USD"}
+{"qid": "hard-coffee-0165", "question": "On how many days from 2015-08-25 to 2016-12-21 did the coffee price close higher than the opening price?", "answer": "155"}
+{"qid": "hard-coffee-0166", "question": "On how many days from 2013-12-27 to 2014-08-14 did the coffee price close higher than the opening price?", "answer": "76"}

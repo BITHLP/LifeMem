@@ -1,0 +1,25 @@
+name: toolqa_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # 论文中明确指定的核心 Python 版本
+  - python=3.8
+
+  # 运行 ReAct 和 ChatGPT 基线所必需的
+  - pip
+
+  # 基础工具：处理 "Coffee" 表格数据
+  - pandas
+
+  # 用于实现 SQL Interpreter 的推断
+  # (它允许在 Pandas DataFrames 上运行 SQL)
+  - pandasql
+
+  # Pip 依赖项
+  - pip:
+      # 用于调用 OpenAI API (gpt-3.5-turbo 等)
+      - openai
+      
+      # Calculator 工具的后端 (用于 Coffee-Hard 问题)
+      - wolframalpha
