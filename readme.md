@@ -1,6 +1,6 @@
 ## [EMNLP2026] LifeMem: Enabling Lifelong Experience Reuse for LLM Agents ##
 
-基于轨迹聚类的Agent记忆系统，用于从训练轨迹中提取、组织和检索技能知识。
+我们提出了基于技能聚类的Agent终身学习框架，通过从训练轨迹中自主提取、组织和检索技能知识，Agent能够在不同环境中复用可迁移的经验，同时减少灾难性遗忘。
 
 ## 系统概述
 
@@ -79,4 +79,4 @@ PORT = 7000
 - ScienceWorld：**[ScienceWorld: Is your Textual Agent Smarter than a 5th grader?](https://github.com/allenai/ScienceWorld)**
 - WebShop：**[WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents](https://github.com/princeton-nlp/WebShop/tree/master)**
 - Mind2Web, Miniwob++：**[Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control](https://github.com/ltzheng/Synapse)**
-我们通过基于GPT-4.1采样并过滤的方式，为其他任务构建了2k+条的高质量训练集，新的轨迹数据存储在`/trainset`目录
+- 我们通过基于GPT-4.1采样并过滤的方式，为其他任务构建了2k+条的高质量训练集，新的轨迹数据存储在`/trainset`目录
