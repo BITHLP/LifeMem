@@ -2,7 +2,6 @@ from openai import OpenAI
 import requests
 
 openai_key=""
-
 openai_chat_model = "gpt-4o-mini-2024-07-18"
 
 def process(result):
@@ -14,11 +13,12 @@ def process(result):
         return result
 
 def openai_chat(prompt, model):
+    print(model)
     client = OpenAI(api_key=openai_key)
     try:
-        completion = client.chat.completions.create(model=model, messages=prompt, temperature=0, stream=False)
-        result=completion.choices[0]
-        result=process(result.message.content)
+        completion = client.chat.completions.create(model=model, messages=prompt, temperature=0.3, stream=False)
+        full_content=completion.choices[0].message.content
+        result=process(full_content)
         return result
     except Exception as e:
         print(e)
