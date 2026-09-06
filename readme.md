@@ -75,34 +75,25 @@ PORT = 7000
 
 ### 评估流程
 
-#### Alfworld, HotpotQA, Webshop
-评测脚本参见ExpeL的仓库：**[ExpeL](https://github.com/LeapLabTHU/ExpeL)**
+**Alfworld, HotpotQA, Webshop**：评测脚本参见ExpeL的仓库：**[ExpeL](https://github.com/LeapLabTHU/ExpeL)**
 
-#### Miniwob++, Mind2web
-评测脚本参见Synapse的仓库：**[Synapse](https://github.com/ltzheng/Synapse)**
+**Miniwob++, Mind2web**：评测脚本参见Synapse的仓库：**[Synapse](https://github.com/ltzheng/Synapse)**
 
-#### tau-bench
-评测脚本参见官方仓库：**[tau-bench](https://github.com/sierra-research/tau-bench)**
+**tau-bench**：评测脚本参见官方仓库：**[tau-bench](https://github.com/sierra-research/tau-bench)**
 
-#### ScienceWorld
-评测脚本可以参考官方仓库：**[ScienceWorld](https://github.com/allenai/ScienceWorld)**
-
+**ScienceWorld**：评测脚本可以参考官方仓库：**[ScienceWorld](https://github.com/allenai/ScienceWorld)**
 将本项目 `.\ScienceWorld\examples` 下的文件替换官方仓库的 `examples` 目录（我们构造了agent自动评测脚本 `evaluator.py`），然后运行：
 
 ```bash
 python evaluator.py --model_name "qwen3-32b" --output_file "test_qwen3-32b.jsonl"
 ```
 
-#### APIBank
-运行以下命令启动评测：
-
+**APIBank**：运行以下命令启动评测：
 ```bash
 python evaluator.py --model "gpt-4o-mini" --output_file "test-4omini.json"
 ```
 
-#### ToolQA
-我们选择了Tabular Database任务，运行：
-
+**ToolQA**：我们选择了Tabular Database任务，运行：
 ```bash
 python ./benchmark/ReAct/code/tests.py
 ```
