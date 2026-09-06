@@ -83,7 +83,7 @@ PORT = 7000
 
 **ScienceWorld**：评测脚本参考[ScienceWorld](https://github.com/allenai/ScienceWorld)
 
-将本项目 `.\ScienceWorld\examples` 下的文件替换官方仓库的 `examples` 目录（我们构造了agent自动评测脚本 `evaluator.py`），然后运行：
+将本项目 `./ScienceWorld/examples` 下的文件替换官方仓库的 `examples` 目录（我们构造了agent自动评测脚本 `evaluator.py`），然后运行：
 
 ```bash
 python evaluator.py --model_name "qwen3-32b" --output_file "test_qwen3-32b.jsonl"
