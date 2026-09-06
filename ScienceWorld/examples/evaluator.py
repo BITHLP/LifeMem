@@ -354,4 +354,4 @@ if __name__ == "__main__":
     main()
 
 
-# python human.py --model_name "qwen3-32b" --output_file "test_qwen3-32b_skill_alfsci.jsonl"
+# python evaluator.py --model_name "qwen3-32b" --output_file "test_qwen3-32b_skill_alfsci.jsonl"

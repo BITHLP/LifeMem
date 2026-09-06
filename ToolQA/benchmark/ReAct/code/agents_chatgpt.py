@@ -58,9 +58,10 @@ class ReactAgent:
         self.key = key
         self.max_steps = max_steps
         self.agent_prompt = agent_prompt
+        PORT=""     # replace with your local server address for memory server
         ###########################################
         payload = {"query": question, "top_k": 2}
-        resp = requests.post("http://10.108.17.151:7200/retrieve", json=payload, timeout=10)
+        resp = requests.post(PORT+"/retrieve", json=payload, timeout=10)
         resp.raise_for_status()
         data = resp.json()
         message_str="Question: "+data['messages'][0][0]['content']
