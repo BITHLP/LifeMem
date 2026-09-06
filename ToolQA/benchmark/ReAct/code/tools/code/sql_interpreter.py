@@ -3,7 +3,7 @@ import os
 
 # --- 配置 ---
 # 确保这个文件名与您在步骤 1 中创建的文件名一致
-DB_FILE = "/data1/ytli/ToolQA/benchmark/ReAct/code/tools/code/toolqa_database.db"
+DB_FILE = "/<YOUR_OWN_PATH>/ToolQA/benchmark/ReAct/code/tools/code/toolqa_database.db"
 # --- 结束配置 ---
 
 def execute(sql_cmd):

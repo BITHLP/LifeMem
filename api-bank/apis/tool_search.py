@@ -88,7 +88,7 @@ class ToolSearcher(API):
         
     
     def best_match_api(self, keywords):
-        model = SentenceTransformer('/home/ylqiu/.cache/huggingface/hub/models--sentence-transformers--paraphrase-MiniLM-L3-v2/snapshots/4ca70771034acceecb2e72475f72050fcdde4ddc')
+        model = SentenceTransformer('sentence-transformers/paraphrase-MiniLM-L3-v2')
         kw_emb = model.encode(keywords)
         best_match = None
         best_match_score = 0

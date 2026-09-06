@@ -1,4 +1,4 @@
-## [EMNLP2026] LifeMem: Enabling Lifelong Experience Reuse for LLM Agents ##
+## LifeMem: Enabling Lifelong Experience Reuse for LLM Agents ##
 
 我们提出了基于技能聚类的Agent终身学习框架，通过从训练轨迹中自主提取、组织和检索技能知识，Agent能够在不同环境中复用可迁移的经验，同时减少灾难性遗忘。
 

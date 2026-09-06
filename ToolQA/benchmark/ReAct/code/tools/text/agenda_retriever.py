@@ -76,7 +76,7 @@ def query_llm(cuda_idxes, query, is_local=True, start=None, end=None):
 
     args = ((input_texts[i], EMBED_MODEL_NAME, cuda_idxes[i], is_local) for i in range(number_of_processes))
 
-    # if there is no file under the directory "/localscratch/yzhuang43/ra-llm/retrieval_benchmark/data/chroma_db/agenda", insert the data into the db
+    # if there is no file under the CHROMA_PERSIST_DIRECTORY, insert the data into the db
     if len(os.listdir(CHROMA_PERSIST_DIRECTORY)) == 0:
         insert_to_db(input_texts, model_name=EMBED_MODEL_NAME, cuda_idx=0, db=db)
 

@@ -21,6 +21,8 @@ try:
 except ImportError:
     pass
 
+RETRIEVAL_SERVER_URL = "http://<YOUR_RETRIEVAL_SERVER_HOST>:7200/retrieve"
+
 SYSTEM_PROMPT="""You are an agent in ScienceWorld. Follow the syntax of the examples closely when taking actions. RULE: The command to place an object is ALWAYS 'move <object> to <location>'. Do not use any other format.
 You may take maximum of 50 steps.
 Here are available actions you can take:
@@ -181,7 +183,7 @@ def userConsole(args):
     ObservationTmp, _1, _2, info = env.step(userInputStr)
     ################ 注释下面的内容
     payload = {"query": TaskDescription, "top_k": 2}
-    resp = requests.post("http://10.108.17.151:7200/retrieve", json=payload, timeout=10)
+    resp = requests.post(RETRIEVAL_SERVER_URL, json=payload, timeout=10)
     resp.raise_for_status()
     data = resp.json()
     message_str=""

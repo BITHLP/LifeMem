@@ -7,7 +7,7 @@ import os
 DB_FILE = "toolqa_database.db" 
 
 # 您的 ToolQA 根路径
-TOOLQA_PATH = "/data1/ytli/ToolQA"
+TOOLQA_PATH = "/<YOUR_OWN_PATH>/ToolQA"
 # --- 结束配置 ---
 
 def coffee_db_loader():

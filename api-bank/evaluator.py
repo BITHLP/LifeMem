@@ -116,14 +116,17 @@ if __name__ == '__main__':
                         help='使用的模型名称 (默认: gpt-4o-mini)')
     parser.add_argument('--output_file', type=str, required=True, 
                         help='输出的 JSON 文件路径 (必须指定)')
-    parser.add_argument('--port', type=str, default='7200', 
+    parser.add_argument('--host', type=str, default='127.0.0.1',
+                        help='检索服务地址')
+    parser.add_argument('--port', type=str, default='7200',
                         help='检索端口')
-    parser.add_argument('--data_dir', type=str, default='lv1-lv2-samples/test', 
+    parser.add_argument('--data_dir', type=str, default='lv1-lv2-samples/test',
                         help='测试数据目录')
     args = parser.parse_args()
     model = args.model
     output_file = args.output_file
     data_dir = args.data_dir
+    host = args.host
     port = args.port
     if os.path.basename(data_dir).endswith('given-desc'):
         tool_search_enabled = False
@@ -150,7 +153,7 @@ if __name__ == '__main__':
                     gt_answer=j
             ############################################################
             payload = {"query": task, "top_k": 2}
-            resp = requests.post("http://10.108.17.151:"+port+"/retrieve", json=payload, timeout=10)
+            resp = requests.post("http://"+host+":"+port+"/retrieve", json=payload, timeout=10)
             resp.raise_for_status()
             data = resp.json()
             insights=data['rules']

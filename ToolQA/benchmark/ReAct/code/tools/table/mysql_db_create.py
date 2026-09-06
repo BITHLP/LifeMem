@@ -13,9 +13,9 @@ import mysql
 import mysql.connector as msql
 import demoji
 
-MYSQL_HOSTNAME = "127.0.0.1"
-MYSQL_USERNAME = "ytli"
-MYSQL_PASSWORD = "Liyutong@node151"
+MYSQL_HOSTNAME = "<YOUR_MYSQL_HOST>"
+MYSQL_USERNAME = "<YOUR_MYSQL_USERNAME>"
+MYSQL_PASSWORD = "<YOUR_MYSQL_PASSWORD>"
 
 def remove_emoji(string):
     # Remove emoji using demoji library
@@ -27,7 +27,7 @@ def remove_emoji(string):
     return cleaned_string
 
 def flights_db_loader():
-    file_path = "/data1/ytli/ToolQA/data/external_corpus/flights/Combined_Flights_2022.csv"
+    file_path = "/<YOUR_OWN_PATH>/ToolQA/data/external_corpus/flights/Combined_Flights_2022.csv"
     data = pd.read_csv(file_path)
     data = data.fillna("---")
     
@@ -80,7 +80,7 @@ def flights_db_loader():
             conn.commit()
 
 def coffee_db_loader():
-    file_path = "/data1/ytli/ToolQA/data/external_corpus/coffee/coffee_price.csv"
+    file_path = "/<YOUR_OWN_PATH>/ToolQA/data/external_corpus/coffee/coffee_price.csv"
     data = pd.read_csv(file_path)
     column_names = data.columns.to_list()
     data = data.fillna("---")
