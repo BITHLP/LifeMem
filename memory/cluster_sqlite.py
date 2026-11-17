@@ -259,10 +259,10 @@ class ClusterDB:
                     examples.remove(i['id'])
                     if len(examples) == 0:
                         break
-        if len(messages) >= 7:
-            sample_size = int(len(messages) * 2 / 3)
-            messages = random.sample(messages, sample_size)
-            print("简洁更新summary，随机采纳条数：", len(messages), sample_size)
+        # if len(messages) >= 7:
+        #     sample_size = int(len(messages) * 2 / 3)
+        #     messages = random.sample(messages, sample_size)
+        #     print("简洁更新summary，随机采纳条数：", len(messages), sample_size)
         summary = get_response(get_summary.format(trajectories=messages, summary=summary))
         return summary
 
@@ -383,7 +383,7 @@ class ClusterDB:
             return set()
 
         all_cluster_ids=self.get_all_cluster_ids()
-        response=get_response(get_split.format(cluster_id=cluster_id, summary=summary, examples=example_messages, old_cluster_id=all_cluster_ids), model="gpt-4.1-2025-04-14")
+        response=get_response(get_split.format(cluster_id=cluster_id, summary=summary, examples=example_messages, old_cluster_id=all_cluster_ids), model="")
         exe_id=response.find("<Execution>")
         print("="*50)
         print("更新clusters\n", response, "\n"+"="*50)
@@ -426,7 +426,7 @@ class ClusterDB:
         query = '''
             SELECT cluster_id, summary, examples 
             FROM clusters 
-            WHERE (LENGTH(examples) - LENGTH(REPLACE(examples, ',', ''))) >= 20
+            WHERE (LENGTH(examples) - LENGTH(REPLACE(examples, ',', ''))) >= 50
         '''
         modified_cluster=set()
         self.cursor.execute(query)
