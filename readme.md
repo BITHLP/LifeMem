@@ -75,11 +75,11 @@ PORT = 7000
 
 ### 评估流程
 
-**Alfworld, HotpotQA, Webshop**：评测脚本参见[ExpeL](https://github.com/LeapLabTHU/ExpeL)
+**Alfworld, HotpotQA, Webshop**：评测脚本和数据参见[ExpeL](https://github.com/LeapLabTHU/ExpeL)
 
-**Miniwob++, Mind2web**：评测脚本参见[Synapse](https://github.com/ltzheng/Synapse)
+**Miniwob++, Mind2web**：评测脚本和数据参见[Synapse](https://github.com/ltzheng/Synapse)
 
-**tau-bench**：评测脚本参见[tau-bench](https://github.com/sierra-research/tau-bench)
+**tau-bench**：评测脚本和数据参见[tau-bench](https://github.com/sierra-research/tau-bench)
 
 **ScienceWorld**：评测脚本参考[ScienceWorld](https://github.com/allenai/ScienceWorld)
 
