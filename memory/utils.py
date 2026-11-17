@@ -13,7 +13,7 @@ def openai_chat(prompt, model):
     except Exception as e:
         print("Exception: ", e)
         return "OpenAI API error"
-def get_response(prompt, model="gpt-5-mini-2025-08-07"):
+def get_response(prompt, model=""):
     retry=0
     while(retry<5):
         prompt=[{"role": "user", "content": prompt}]
