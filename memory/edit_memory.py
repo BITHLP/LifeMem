@@ -7,7 +7,8 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 import sqlite3
 from langchain_community.docstore.in_memory import InMemoryDocstore
 
-embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-MiniLM-L3-v2", model_kwargs={"device": "cpu"})
+# add your embedding model here.
+embedding = HuggingFaceEmbeddings(model_name="", model_kwargs={"device": "cpu"})
 
 # memory_path = "./memory_faiss"
 
