@@ -11,7 +11,7 @@ INITIAL_RULES_TEXT = """
 """
 
 # LLM 配置
-MODEL_NAME = "gpt-4.1" 
+MODEL_NAME = "" 
 API_PROVIDER = "openai"
 
 # 经验提取超参数
@@ -155,7 +155,7 @@ Here are the EXISTING RULES:
 By examining the successful trials, and the list of existing rules, you can perform the following operations: add, edit, remove, or agree so that the new list of rules are general and high level insights of the successful trials or proposed way of Thought so they can be used as helpful tips to different tasks in the future. Have an emphasis on tips that help the agent perform better Thought and Action. Follow the below format:
 
 {OPERATION_FORMAT}"""
-    response = get_response(prompt, model="gpt-4.1-2025-04-14")
+    response = get_response(prompt, model="")
     return response
 
 
