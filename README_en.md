@@ -82,15 +82,15 @@ PORT = 7000
 
 #### ALFWorld, HotpotQA, WebShop
 
-See the evaluation scripts in the **[ExpeL](https://github.com/LeapLabTHU/ExpeL)** repository.
+See the evaluation scripts and testset in the **[ExpeL](https://github.com/LeapLabTHU/ExpeL)** repository.
 
 #### MiniWoB++, Mind2Web
 
-See the evaluation scripts in the **[Synapse](https://github.com/ltzheng/Synapse)** repository.
+See the evaluation scripts and testset in the **[Synapse](https://github.com/ltzheng/Synapse)** repository.
 
 #### tau-bench
 
-See the evaluation scripts in the official **[tau-bench](https://github.com/sierra-research/tau-bench)** repository.
+See the evaluation scripts and testset in the official **[tau-bench](https://github.com/sierra-research/tau-bench)** repository.
 
 #### ScienceWorld
 
